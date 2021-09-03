@@ -1,1 +1,1 @@
-https://wattenberger.com/blog/react-and-d3
+Viz building blocks for D3 in React.
