@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { ScaleLinear } from 'd3'
+import { max, floor } from 'lodash'
 
 const Axis = ({
   scale,
@@ -16,7 +17,7 @@ const Axis = ({
   const ticks = useMemo(() => {
     const width = range[1] - range[0]
     const pixelsPerTick = 30
-    const numberOfTicksTarget = Math.max(1, Math.floor(width / pixelsPerTick))
+    const numberOfTicksTarget = max([1, floor(width / pixelsPerTick)])
 
     return scale.ticks(numberOfTicksTarget).map((value) => ({
       value,
