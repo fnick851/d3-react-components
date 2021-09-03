@@ -1,5 +1,6 @@
 import { useCss } from 'kremling'
 import AnimatedCircles from './AnimatedCircles'
+import AxesView from './AxesView'
 import ManyCircles from './ManyCircles'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <ManyCircles />
       <AnimatedCircles />
+      <AxesView />
     </>
   )
 }
