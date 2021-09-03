@@ -3,7 +3,7 @@ import AnimatedCircles from './AnimatedCircles'
 import ManyCircles from './ManyCircles'
 
 function App() {
-  useCss(css)
+  useCss(globalCss)
 
   return (
     <>
@@ -13,7 +13,7 @@ function App() {
   )
 }
 
-const css = /*css*/ `
+const globalCss = /*css*/ `
 svg {
   border: 1px solid black;
 }
