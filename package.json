@@ -9,10 +9,13 @@
   "dependencies": {
     "d3": "^7.0.1",
     "kremling": "^2.1.0",
+    "lodash": "^4.17.21",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-spring": "^9.2.4"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.172",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@vitejs/plugin-react-refresh": "^1.3.1",
