@@ -1,6 +1,4 @@
 {
-  "name": "react-d3-basics",
-  "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
