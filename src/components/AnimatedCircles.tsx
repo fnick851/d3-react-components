@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
-import useInterval from '../hooks/useInterval'
+import useInterval from '../hooks/use-interval'
 import { useSpring, animated } from 'react-spring'
-import generateCircles from '../helpers/generateCircles'
+import generateCircles from '../helpers/generate-circles'
 
 const allCircles = [0, 1, 2, 3, 4, 5]
 

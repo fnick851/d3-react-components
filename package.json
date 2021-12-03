@@ -5,6 +5,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@juggle/resize-observer": "^3.3.1",
     "d3": "^7.0.1",
     "kremling": "^2.1.0",
     "lodash": "^4.17.21",

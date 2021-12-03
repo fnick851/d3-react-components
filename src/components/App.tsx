@@ -2,6 +2,7 @@ import { useCss } from 'kremling'
 import AnimatedCircles from './AnimatedCircles'
 import AxesView from './AxesView'
 import ManyCircles from './ManyCircles'
+import Map from './Map'
 
 function App() {
   useCss(globalCss)
@@ -11,6 +12,7 @@ function App() {
       <ManyCircles />
       <AnimatedCircles />
       <AxesView />
+      <Map />
     </>
   )
 }

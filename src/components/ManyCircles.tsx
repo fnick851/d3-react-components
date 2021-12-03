@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import generateDataset from '../helpers/generateDataset'
-import useInterval from '../hooks/useInterval'
+import generateDataset from '../helpers/generate-dataset'
+import useInterval from '../hooks/use-interval'
 
 const ManyCircles = () => {
   const [dataset, setDataset] = useState(generateDataset())
